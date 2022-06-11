@@ -1,0 +1,5 @@
+Project 2 Proposal: Extract, Transform, Load
+For our project we are looking to see if there is a correlation between US minimum wage and the frequency of US hate crimes. We will do this by grouping by both state and year; this will also allow us to compare hate crimes and minimum wage within a state over time. We plan to clean the data on the CSV files and choose which columns we’d like to use in our comparisons. Then we will merge the data frames together to create a side-by-side comparison of the data. We plan to create our tables in Postgres, because we are looking at relational datasets. 
+CSV file links: 
+https://www.kaggle.com/datasets/lislejoem/us-minimum-wage-by-state-from-1968-to-2017
+https://www.kaggle.com/datasets/louissebye/united-states-hate-crimes-19912017
