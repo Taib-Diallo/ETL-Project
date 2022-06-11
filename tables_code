@@ -1,0 +1,27 @@
+CREATE TABLE hate_data (
+id INT PRIMARY KEY,
+State VARCHAR,
+Year VARCHAR,
+Victim_Count VARCHAR
+);
+
+CREATE TABLE min_wage (
+id INT PRIMARY KEY,
+State VARCHAR,
+Year VARCHAR,
+State_Minimum_Wage VARCHAR,
+Federal_Minimum_Wage VARCHAR
+);
+
+CREATE TABLE merge (
+id INT PRIMARY KEY,
+State VARCHAR,
+Year VARCHAR,
+State_Minimum_Wage VARCHAR,
+Federal_Minimum_Wage VARCHAR,
+Victim_Count VARCHAR
+);
+
+select * from hate_data
+select * from min_wage
+select * from merge
