@@ -6,4 +6,4 @@ The first step in this project was to extract the data. As mentioned, we were ab
 
 Once our two dataframes were cleaned and organized, we were able to begin the loading process. We chose to use Postgres to load in our data to create a merged table.
 
-For more information, please see the final report file. 
+For more information, please see the ETL Technical Report file. 
